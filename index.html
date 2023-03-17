@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Todo List</h1>
+
+    <ul id="todo-list">
+
+
+    </ul>
+
+
+
+    <form id="add-item" action="">
+
+        <input id="add-todo" placeholder="add todo" type="text">
+        <button type="submit" >Add Todo</button>
+    </form>
+    
+</body>
+
+<script>
+
+document.getElementById("add-item").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the form from causing a page reload
+        
+        let questionText = document.getElementById("add-todo").value.trim();
+        let todolist = document.getElementById("todo-list");
+
+
+        todolist.appendChild(card)
+}
+ 
+
+
+
+
+
+
+</script>
+</html>
